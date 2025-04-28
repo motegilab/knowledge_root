@@ -1,0 +1,7 @@
+{
+    "workspace.trust.enabled": true,
+    "tasks.enabled": true,
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true,
+    "python.analysis.typeCheckingMode": "basic"
+} 
