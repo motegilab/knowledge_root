@@ -5,24 +5,24 @@
     {
       "label": "🌀 Sync & Push on Save",
       "type": "shell",
-      "command": "python",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
       "args": [
-        "${workspaceFolder}/knowlage_grail/scripts/sync.py"
+        "${workspaceFolder}\\scripts\\sync.py"
       ],
       // session_work.md を保存した時だけ自動実行
       "problemMatcher": [],
       "runOptions": {
         "runOn": "fileSave",
-        "runOnFiles": "knowlage_grail/docs/session_work.md"
+        "runOnFiles": "docs\\session_work.md"
       },
       "presentation": { "reveal": "silent" }
     },
     {
       "label": "📂 Export Folder Tree",
       "type": "shell",
-      "command": "python",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
       "args": [
-        "${workspaceFolder}/knowlage_grail/scripts/generate_folder_tree.py"
+        "${workspaceFolder}\\scripts\\generate_folder_tree.py"
       ],
       "group": { "kind": "build", "isDefault": false },
       "problemMatcher": []
@@ -30,9 +30,9 @@
     {
       "label": "📥 Manual Ingest",
       "type": "shell",
-      "command": "${workspaceFolder}/knowlage_grail/.venv/Scripts/python.exe",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
       "args": [
-        "${workspaceFolder}/knowlage_grail/scripts/ingest.py"
+        "${workspaceFolder}\\scripts\\ingest.py"
       ],
       "presentation": { "reveal": "always" },
       "problemMatcher": []
