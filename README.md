@@ -1,4 +1,4 @@
-# knowlage_grail
+# knowlage_root
 Holy‑Grail Repo
 
 ## Quick Start (5-step)
