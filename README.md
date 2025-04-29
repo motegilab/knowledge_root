@@ -11,7 +11,8 @@ Holy‑Grail Repo
 ## 🧠 Memo (for GPT use)
 To continue a chat, paste this into the beginning:
 ```
-以下を読み込んで作業用キャンバスに貼り付けて：
+以下を読み込んで作業用Canvasに貼り付けて：
+ファイル名はgpt_snapshot.mdにしてください。
 ```
 https://raw.githubusercontent.com/motegilab/knowledge_root/main/docs/gpt_snapshot.md
 ```
