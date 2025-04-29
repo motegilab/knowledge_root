@@ -1,4 +1,28 @@
-﻿.venv/
+﻿# Python仮想環境
+.venv/
+
+# ベクトルDB保存ディレクトリ
 vectors/
+
+# Obsidian Vaultデータ
 obsidian_vault/
 raw/
+
+# 環境ファイル
+.env
+.env.*
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# VSCode / Cursor個人設定
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# その他一時ファイル
+*.log
+.DS_Store
+Thumbs.db
