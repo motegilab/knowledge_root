@@ -1,0 +1,41 @@
+{
+  // ===== Holy-Grail Task Runner =====
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🌀 Sync & Push on Save",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/knowlage_grail/scripts/sync.py"
+      ],
+      // session_work.md を保存した時だけ自動実行
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "fileSave",
+        "runOnFiles": "knowlage_grail/docs/session_work.md"
+      },
+      "presentation": { "reveal": "silent" }
+    },
+    {
+      "label": "📂 Export Folder Tree",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/knowlage_grail/scripts/generate_folder_tree.py"
+      ],
+      "group": { "kind": "build", "isDefault": false },
+      "problemMatcher": []
+    },
+    {
+      "label": "📥 Manual Ingest",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/knowlage_grail/scripts/ingest.py"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+} 
