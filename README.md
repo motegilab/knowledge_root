@@ -15,6 +15,7 @@ To continue a chat, paste this into the beginning:
 ファイル名はgpt_snapshot.mdにしてください。
 ```
 https://raw.githubusercontent.com/motegilab/knowledge_root/main/docs/gpt_snapshot.md
+https://raw.githubusercontent.com/motegilab/knowledge_root/main/docs/folder_tree.md
 ```
 あるいは
 https://raw.githubusercontent.com/motegilab/knowledge_root/main/docs/knowledge_progress_memo_min.md
