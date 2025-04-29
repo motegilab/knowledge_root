@@ -15,3 +15,7 @@ To continue a chat, paste this into the beginning:
 ```
 https://raw.githubusercontent.com/motegilab/knowledge_root/main/docs/gpt_snapshot.md
 ```
+あるいは
+https://raw.githubusercontent.com/motegilab/knowledge_root/main/docs/knowledge_progress_memo_min.md
+
+https://raw.githubusercontent.com/motegilab/knowledge_root/main/docs/knowledge_local_rag_tasks_min.md
