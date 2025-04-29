@@ -12,7 +12,6 @@ Holy‑Grail Repo
 To continue a chat, paste this into the beginning:
 ```
 以下を読み込んで作業用キャンバスに貼り付けて：
-
-https://raw.githubusercontent.com/motegilab/knowlage_grail/main/docs/gpt_snapshot.md
-
+```
+https://raw.githubusercontent.com/motegilab/knowledge_root/main/docs/gpt_snapshot.md
 ```
