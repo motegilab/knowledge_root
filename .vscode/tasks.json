@@ -36,6 +36,16 @@
       ],
       "presentation": { "reveal": "always" },
       "problemMatcher": []
+    },
+    {
+      "label": "🔄 Auto Sync & Push",
+      "type": "shell",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": [
+        "${workspaceFolder}\\scripts\\sync.py"
+      ],
+      "group": { "kind": "build", "isDefault": false },
+      "problemMatcher": []
     }
   ]
 }
