@@ -1,0 +1,9 @@
+langchain
+openai
+tiktoken
+chromadb
+faiss-cpu
+python-dotenv
+pydantic
+PyMuPDF
+unstructured
