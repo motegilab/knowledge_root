@@ -77,4 +77,4 @@ tasks:
   - on: manual
     run: python knowlage_grail/scripts/ingest.py
     label: "📥 Manual Ingest"
->>>>>>> 5ce56787da580a600a2b10b5f1910581f3ffdfb1
+
